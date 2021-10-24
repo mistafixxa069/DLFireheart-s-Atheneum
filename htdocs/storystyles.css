@@ -1,0 +1,33 @@
+body{
+background-image: url('../images/background.png');
+}
+div {
+text-align: center;
+}
+div.details {
+margin: auto;
+background-color: #A9A9A9;
+border-radius: 10px;
+border: 1px solid transparent;
+width: auto;
+text-align: center;
+}
+div.content{
+text-align:justify;
+}
+p.subtitle{
+font-size: 150%;
+}
+.button{
+background-color: dimgray;
+border: none;
+border-radius: 5px;
+color: white;
+padding: 5px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: auto;
+margin: 10px 10px;
+cursor: pointer;
+}

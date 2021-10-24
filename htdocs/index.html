@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DLFireheart's Aetheneum</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="indexstyles.css">
+<link rel="shortcut icon" type="images/x-icon" href="../images/icon.ico" />
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	<div class="home">	
+	<br>
+	<div class="content">
+		<h1 class="intro">Welcome to DLFireheart's Atheneum!!!</h1>
+		<p class="intro">This is a library for all of my written original works.<br>
+		From futuristic sci-fi to action adventures, they are all here!</p>
+	</div>
+	<br><br><br>
+	<div>
+		<a href="Rob's Mission.html">
+		<button class="button">
+			<p class="content"><img src="../images/RM.png" alt="RM" style="border: 5px solid transparent;vertical-align:middle; float:left; width:225px; height: 300px">
+			<span class="title">Rob's Mission</span>
+			<br><span class="description">Rob's Mission is an action adventure story about a robot trying to give free will to his robot brethren. Along the way, he obtains some useful upgrades, some nice and quirky characters and some evil people who want to keep the way it is.</span></p>
+		</button>
+		</a>
+		<a href="The Reformed.html">
+		<button class="button">
+			<p class="content"><img src="../images/The Reformed.png" alt="The Reformed" style="border: 5px solid transparent;vertical-align:middle; float:left; width:225px; height: 300px">
+			<span class="title">The Reformed</span>
+			<br><span class="description">A presumed missing princess, a playboy billionaire, a brilliant scientist, a kind hearted burglar, a forgotten soldier and an immortal and ageless woman. What do they have in common? I don't know, but you can find out here!</span></p>
+		</button>
+		</a>
+		<a href="TAOMI.html">
+		<button class="button">
+			<p class="content"><img src="../images/The Adventures Of Mr. Invincible.png" alt="The Adventures Of Mr. Invincible" style="border: 5px solid transparent;vertical-align:middle; float:left; width:225px; height: 300px">
+			<span class="title">The Adventures Of Mr. Invincible</span>
+			<br><span class="description">A teen born with a high pain capacity, raised by two ex-military officers and has a best friend that is a well known vigilante. John Blane tries to help people his way, through his fists and his pain(or the near non-existence of it).</span></p>
+		</button>
+		</a>
+		<a href="LAP.html">
+		<button class="button">
+			<p class="content"><img src="../images/Law and Powers.gif" alt="Law and Powers" style="border: 5px solid transparent;vertical-align:middle; float:left; width:225px; height: 300px">
+			<span class="title">Law and Powers</span>
+			<br><span class="description">Private investigator Douglas "Doug" Bradley has a little secret, he's the quick and slick hero, Quick Step! Join this hero on his several hijinks and adventures, there's no time to waste!</span></p>
+		</button>
+		</a>
+		<a href="TWTWTI.html">
+		<button class="button">
+			<p class="content"><img src="../images/TWTWTI.png" alt="TWTWTI" style="border: 5px solid transparent;vertical-align:middle; float:left; width:225px; height: 300px">
+			<span class="title">The Weird, the Wacky and the Inhumane</span>
+			<br><span class="description">Sometimes, some things can't be explained. Like how can a little girl fall as if she's on the moon? How can a kid detach and reattach their limbs? This is how fourteen year old Timothy Flake discovers that some things just can't be explained.</span></p>
+		</button>
+		</a>
+	</div>
+</body>
+</html>
